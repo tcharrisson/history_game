@@ -13,7 +13,7 @@ if playing == "yes":
 while playing not in ('yes', 'no'):
     playing = input('please answer yes or no....! ').lower().strip()
     if playing == "no":
-        print('Thanks for your time, see you next time..')
+        print('Thanks for your time, see you next time....')
         quit()
         break
     if playing == "yes":
